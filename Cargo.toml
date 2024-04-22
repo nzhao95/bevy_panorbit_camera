@@ -15,11 +15,11 @@ readme = "README.md"
 bevy_egui = ["dep:bevy_egui"]
 
 [dependencies]
-bevy = { version = "0.13", default-features = false, features = ["bevy_render"] }
+bevy = { git = "https://github.com/nzhao95/bevy", default-features = false, features = ["bevy_render"] }
 bevy_egui = { version = "0.25", optional = true, default-features = false }
 
 [dev-dependencies]
-bevy = { version = "0.13" }
+bevy = { git = "https://github.com/nzhao95/bevy" }
 float-cmp = "0.9.0"
 bevy_egui = { version = "0.25", default-features = false, features = ["render", "default_fonts"] }
 
